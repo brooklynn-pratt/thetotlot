@@ -28,6 +28,16 @@ nav a:hover, footer a:hover {
     background-color: #F7996E;
     color: #D7FFAB;
 }
+.login {
+    input[type=text], input[type=password]
+    align-items: center;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+}
 #logo_link {
     padding-top: 5px;
     justify-self: center;
