@@ -89,7 +89,7 @@ h4 {
 main section {
     text-align: center;
 }
-.img {
+.image {
     border: 10px solid #BBB09B;
     margin: 20px 0;
     border: 5px solid #d9c2a3;
@@ -109,6 +109,87 @@ main section {
     font-family: Luckiest Guy;
     font-size: 2.5em;
     color:#324376
+}
+
+.name1 {
+    width: 150px;
+}
+.name {
+    font-family: Luckiest Guy;
+    color:#F7996E;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+}
+.info-chart {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%
+}
+.pic1 { 
+    border: 5px solid #BBB09B;
+    width: 50px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 200px;
+    margin-top: 30px;
+}
+.pic2 { 
+    border: 5px solid #BBB09B;
+    width: 50px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 200px;
+    margin-top: 30px;
+}
+.pic3 { 
+    border: 5px solid #BBB09B;
+    width: 50px;
+    grid-column: 1/4;
+    grid-row: 2/2;
+    width: 200px;
+    margin-top: 77px;
+}
+.pic4 { 
+    border: 5px solid #BBB09B;
+    width: 50px;
+    grid-column: 3/4;
+    grid-row: 2/2;
+    width: 200px;
+    margin-top: 77px;
+}
+
+.food {
+    align-items: center;
+    width: 110px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-family: Karla;
+    color:#324376;
+}
+.call {
+    align-items: center;
+    width: 110px;
+    grid-column: 4/4;
+    grid-row: 1/2;
+    font-family: Karla;
+    color:#324376;
+}
+.car {
+    align-items: center;
+    width: 110px;
+    grid-column: 2/4;
+    grid-row: 2/2;
+    font-family: Karla;
+    color:#324376;
+    margin-top: 45px;
+}
+.meds {
+    align-items: center;
+    width: 150px;
+    grid-column: 4/4;
+    grid-row: 2/2;
+    font-family: Karla;
+    color:#324376;
+    margin-top: 50px;
 }
 footer {
     background-color:#85C7F2; 
