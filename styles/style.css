@@ -90,13 +90,25 @@ main section {
     text-align: center;
 }
 .img {
-    grid-column: 2/4;
-    grid-row: 2/3;
     border: 10px solid #BBB09B;
     margin: 20px 0;
-    border: 10px solid #d9c2a3;
+    border: 5px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.teacher-grid {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: karla;
+    color:#85C7F2
+}
+.quote {
+    align-items: center;
+    margin-top: 100px;
+    font-family: Luckiest Guy;
+    font-size: 2.5em;
+    color:#324376
 }
 footer {
     background-color:#85C7F2; 
