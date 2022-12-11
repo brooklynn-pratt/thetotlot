@@ -29,7 +29,6 @@ nav a:hover, footer a:hover {
     color: #D7FFAB;
 }
 .login {
-    input[type=text], input[type=password]
     align-items: center;
         width: 100%;
         padding: 12px 20px;
